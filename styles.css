@@ -1,0 +1,78 @@
+
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+
+:root {
+    --gradientStart: #0a55d8;
+    --gradientMid: rgb(5, 31, 146);
+    --gradientEnd: #450a97;
+}
+
+
+.nav-bar {
+    background: linear-gradient(90deg, var(--gradientStart), var(--gradientMid), var(--gradientEnd));
+}
+
+
+h1 {
+    color: white;
+    font-size: 2em;
+    font-weight: 600;
+    text-align: center;
+}
+
+.row {
+
+    padding:2px;
+}
+
+.card-body {
+    background-color:#33475b;
+}
+
+.card-body > h5 {
+    color: white;
+}
+
+#weather-current img {
+    display: inline;
+}
+
+
+#weather-current h2 {
+    display: inline;
+}
+
+#container-weather-current {
+    border: 1px solid black; 
+}
+
+@media screen and (max-width: 500px) {
+  .d-grid.gap-2 {
+   
+    padding: 20px 10px 15px 20px;
+  }
+
+  .styled-label {
+    padding: 20px 10px 15px 20px;
+  }
+  .col-12 {
+      padding: 0;
+  }
+
+  .col {
+    padding: 0;
+}
+
+.pad-mobile {
+    padding: 10px 40px 0 45px !important;
+}
+.fiveDayHeader {
+    margin-top: 15px;
+    padding: 0 10px;
+}
+}
+
